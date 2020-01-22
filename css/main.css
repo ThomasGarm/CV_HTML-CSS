@@ -97,7 +97,18 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+.carteid {
+  margin: 1em;
+  background-color: aqua;
+  display: flex;
 
+}
+
+.mainclass{
+  background-color: chartreuse;
+  display: flex;
+  justify-content: space-around;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
