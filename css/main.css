@@ -97,17 +97,33 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-.carteid {
+.carteid { 
   margin: 1em;
-  background-color: aqua;
+  background-color: rgb(116, 216, 216);
   display: flex;
+  justify-content: space-evenly;
+  border: thick double;
+  border-radius: 10px;
+} 
+.Espace{
+  padding-right: 15px;
+}
 
+.coordonate{
+  display: column;
 }
 
 .mainclass{
-  background-color: chartreuse;
+  background-color: rgb(169, 175, 162);
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  text-align: baseline; 
+  margin: 1em;
+}
+
+.asideblock{
+  background-color: beige;
+  justify-content: stretch;
 }
 /* ==========================================================================
    Helper classes
